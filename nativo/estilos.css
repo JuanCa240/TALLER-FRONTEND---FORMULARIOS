@@ -1,0 +1,7 @@
+@import url('../estilos.css');
+
+/* :user-invalid marca el error solo después de que la persona interactúa con el campo */
+input:user-invalid,
+select:user-invalid {
+  border: 2px solid #c0392b;
+}
